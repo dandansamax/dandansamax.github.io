@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://dandansamax.github.io/sitemap.xml

@@ -1,12 +1,14 @@
 +++
 title="全新基准测试CRAB！智能体可以同时操作手机和电脑？！GPT-4o竟然只拿了35.26分。"
-date=2024-08-08
+date=2024-08-10
 
 [taxonomies]
 tags = ["academic", "agent", "benchmark", "llm"]
 +++
 
-近日，由多智能体开源项目的先驱CAMEL-AI社区主导，来自阿卜杜拉国王科技大学、牛津大学、东京大学、卡内基梅隆大学、斯坦福大学、清华大学等高校和机构的社区研究者开发了一个跨平台的多模态智能体基准测试框架：CRAB，开创性地使用智能体同时操作多个设备。
+> 近日，由多智能体开源项目的先驱CAMEL-AI社区主导，来自阿卜杜拉国王科技大学、牛津大学、东京大学、卡内基梅隆大学、斯坦福大学、清华大学等高校和机构的社区研究者开发了一个跨平台的多模态智能体基准测试框架：CRAB，开创性地使用智能体同时操作多个设备。
+
+## 介绍
 
 随着多模态大语言模型（MLLM）的迅猛发展，今年涌现出众多能够操作图形用户界面（GUI）的智能体。各大厂商纷纷推出各自的创新解决方案，竞争非常激烈。GUI智能体通过大模型强大的视觉理解和推理能力，如今已经能够高效灵活地完成预约、购物和智能家居控制等任务。
 
@@ -18,9 +20,9 @@ CAMEL-AI社区的研究人员注意到了这一问题，提出了第一个支持
 
 ![](crab-title.png)
 
-> 论文地址: https://arxiv.org/abs/2407.01511
+> 论文地址: [https://arxiv.org/abs/2407.01511](https://arxiv.org/abs/2407.01511)
 
-[CAMEL-AI社区](https://www.camel-ai.org)开发的[CAMEL框架](https://github.com/camel-ai) 是最早的基于大语言模型的多智能体开源项目，因此社区成员都是在智能体领域有着丰富的科研和实践经验的研究者和工程师。
+[CAMEL-AI社区](https://www.camel-ai.org)开发的[CAMEL框架](https://github.com/camel-ai)是最早的基于大语言模型的多智能体开源项目，因此社区成员都是在智能体领域有着丰富的科研和实践经验的研究者和工程师。
 
 作者在CRAB中不仅设计了基于网络的多环境架构，使得智能体能够同时操作多台设备完成任务，还针对现有智能体Benchmark存在的问题提出了图评估器和任务合成两项新技术。CRAB不仅是一个全新的基准测试工具，还提供了一个环境与智能体之间的交互协议和其实现，这有望成为Agent在实用领域的重要基础。
 
@@ -28,17 +30,15 @@ CAMEL-AI社区的研究人员注意到了这一问题，提出了第一个支持
 
 对于那些希望通过CRAB评测自己智能体性能的用户，作者贴心地提供了一个谷歌云平台上的硬盘镜像。只需一键操作，所有繁琐的虚拟机、深度学习模型、Python包等配置都会自动完成，让用户能够立即投入到重要的实验中去。
 
-目前，CRAB的论文已经发布在Arxiv，相关代码和数据开源在CAMEL AI社区的GitHub上。
-
-> GitHub仓库地址: https://github.com/camel-ai/crab
+目前，CRAB的论文已经发布在[Arxiv](https://arxiv.org/abs/2407.01511)，相关代码和数据开源在CAMEL AI社区的[GitHub](https://github.com/camel-ai/crab)上。
 
 说了这么多，CRAB运行起来是什么样的？来看看下面这个视频：
 
 <video id="dollyzoom" controls muted playsinline loop height="100%">
-    <source src="./CRAB Demo v15.mp4" type="video/mp4">
+    <source src="CRAB Demo v15.mp4" type="video/mp4">
 </video>
 
-![](crab-main-diagram.png)
+![](./crab-main-diagram.png)
 
 上图展示了作者设计的多智能体系统在CRAB上进行测试的流程。
 
